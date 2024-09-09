@@ -1,0 +1,77 @@
+2024-09-02 17:05:33,179 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.85:5000
+2024-09-02 17:05:33,181 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 17:05:33,185 - INFO -  * Restarting with stat
+2024-09-02 17:05:35,255 - WARNING -  * Debugger is active!
+2024-09-02 17:05:35,266 - INFO -  * Debugger PIN: 674-151-141
+2024-09-02 17:11:27,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.85:5000
+2024-09-02 17:11:27,606 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 17:11:27,609 - INFO -  * Restarting with stat
+2024-09-02 17:11:29,600 - WARNING -  * Debugger is active!
+2024-09-02 17:11:29,612 - INFO -  * Debugger PIN: 674-151-141
+2024-09-02 17:12:05,076 - INFO - 127.0.0.1 - - [02/Sep/2024 17:12:05] "OPTIONS /api/register HTTP/1.1" 200 -
+2024-09-02 17:12:05,725 - INFO - User registered: chanirumanamperi@gmail.com
+2024-09-02 17:12:05,725 - INFO - 127.0.0.1 - - [02/Sep/2024 17:12:05] "POST /api/register HTTP/1.1" 200 -
+2024-09-02 17:12:27,993 - INFO - 127.0.0.1 - - [02/Sep/2024 17:12:27] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-02 17:12:28,688 - INFO - User logged in: chanirumanamperi@gmail.com
+2024-09-02 17:12:28,690 - INFO - 127.0.0.1 - - [02/Sep/2024 17:12:28] "POST /api/login HTTP/1.1" 200 -
+2024-09-02 17:12:30,837 - INFO - 127.0.0.1 - - [02/Sep/2024 17:12:30] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:12:31,158 - INFO - 127.0.0.1 - - [02/Sep/2024 17:12:31] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:13:40,085 - INFO - 127.0.0.1 - - [02/Sep/2024 17:13:40] "OPTIONS /api/detect-spam HTTP/1.1" 200 -
+2024-09-02 17:13:40,479 - INFO - 127.0.0.1 - - [02/Sep/2024 17:13:40] "POST /api/detect-spam HTTP/1.1" 200 -
+2024-09-02 17:13:40,658 - INFO - 127.0.0.1 - - [02/Sep/2024 17:13:40] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:13:40,811 - INFO - 127.0.0.1 - - [02/Sep/2024 17:13:40] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:14:47,241 - INFO - 127.0.0.1 - - [02/Sep/2024 17:14:47] "OPTIONS /api/detect-spam HTTP/1.1" 200 -
+2024-09-02 17:14:47,574 - INFO - 127.0.0.1 - - [02/Sep/2024 17:14:47] "POST /api/detect-spam HTTP/1.1" 200 -
+2024-09-02 17:14:47,856 - INFO - 127.0.0.1 - - [02/Sep/2024 17:14:47] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:14:47,952 - INFO - 127.0.0.1 - - [02/Sep/2024 17:14:47] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:16:33,266 - INFO -  * Detected change in 'D:\\Spam_Email_Project\\spam-email-backend\\app.py', reloading
+2024-09-02 17:16:33,914 - INFO -  * Restarting with stat
+2024-09-02 17:16:36,584 - WARNING -  * Debugger is active!
+2024-09-02 17:16:36,593 - INFO -  * Debugger PIN: 674-151-141
+2024-09-02 17:17:00,381 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:00] "OPTIONS /api/detect-spam HTTP/1.1" 200 -
+2024-09-02 17:17:00,721 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:00] "POST /api/detect-spam HTTP/1.1" 200 -
+2024-09-02 17:17:00,952 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:00] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:17:01,075 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:01] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:17:26,204 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:26] "OPTIONS /api/delete-prediction/1 HTTP/1.1" 200 -
+2024-09-02 17:17:26,542 - INFO - Prediction deleted for user 1: 1
+2024-09-02 17:17:26,543 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:26] "DELETE /api/delete-prediction/1 HTTP/1.1" 200 -
+2024-09-02 17:17:26,768 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:26] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:17:51,503 - INFO - 127.0.0.1 - - [02/Sep/2024 17:17:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 415 -
+2024-09-02 17:18:12,906 - INFO - 127.0.0.1 - - [02/Sep/2024 17:18:12] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-02 17:18:13,584 - INFO - User logged in: chanirumanamperi@gmail.com
+2024-09-02 17:18:13,596 - INFO - 127.0.0.1 - - [02/Sep/2024 17:18:13] "POST /api/login HTTP/1.1" 200 -
+2024-09-02 17:18:15,390 - INFO - 127.0.0.1 - - [02/Sep/2024 17:18:15] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 17:18:15,840 - INFO - 127.0.0.1 - - [02/Sep/2024 17:18:15] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 20:19:35,173 - INFO - 127.0.0.1 - - [02/Sep/2024 20:19:35] "[31m[1mPOST /api/login HTTP/1.1[0m" 415 -
+2024-09-02 20:20:00,616 - INFO - 127.0.0.1 - - [02/Sep/2024 20:20:00] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-02 20:20:01,358 - ERROR - Failed login attempt: chanirumanamperi@gmail.com
+2024-09-02 20:20:01,359 - INFO - 127.0.0.1 - - [02/Sep/2024 20:20:01] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-09-02 20:20:26,009 - INFO - 127.0.0.1 - - [02/Sep/2024 20:20:26] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-02 20:20:26,652 - INFO - User logged in: chanirumanamperi@gmail.com
+2024-09-02 20:20:26,665 - INFO - 127.0.0.1 - - [02/Sep/2024 20:20:26] "POST /api/login HTTP/1.1" 200 -
+2024-09-02 20:20:29,564 - INFO - 127.0.0.1 - - [02/Sep/2024 20:20:29] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-02 20:20:29,888 - INFO - 127.0.0.1 - - [02/Sep/2024 20:20:29] "GET /api/view-post HTTP/1.1" 200 -
+2024-09-03 11:50:27,298 - INFO - 127.0.0.1 - - [03/Sep/2024 11:50:27] "[31m[1mPOST /api/login HTTP/1.1[0m" 415 -
+2024-09-03 11:51:07,784 - INFO - 127.0.0.1 - - [03/Sep/2024 11:51:07] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-03 11:51:08,156 - ERROR - Error during login: 2013 (HY000): Lost connection to MySQL server during query
+2024-09-03 11:51:08,160 - INFO - 127.0.0.1 - - [03/Sep/2024 11:51:08] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2024-09-03 11:51:29,369 - INFO - 127.0.0.1 - - [03/Sep/2024 11:51:29] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-03 11:51:29,687 - ERROR - Error during login: 2013 (HY000): Lost connection to MySQL server during query
+2024-09-03 11:51:29,688 - INFO - 127.0.0.1 - - [03/Sep/2024 11:51:29] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2024-09-03 11:51:35,422 - INFO - 127.0.0.1 - - [03/Sep/2024 11:51:35] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-03 11:51:35,428 - ERROR - Error during login: 2013 (HY000): Lost connection to MySQL server during query
+2024-09-03 11:51:35,430 - INFO - 127.0.0.1 - - [03/Sep/2024 11:51:35] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2024-09-03 11:51:40,048 - ERROR - Error during login: 2013 (HY000): Lost connection to MySQL server during query
+2024-09-03 11:51:40,049 - INFO - 127.0.0.1 - - [03/Sep/2024 11:51:40] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2024-09-03 11:52:01,354 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:01] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-03 11:52:01,675 - ERROR - Error during login: 2013 (HY000): Lost connection to MySQL server during query
+2024-09-03 11:52:01,676 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:01] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2024-09-03 11:52:30,321 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:30] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-09-03 11:52:30,633 - ERROR - Error during login: 2013 (HY000): Lost connection to MySQL server during query
+2024-09-03 11:52:30,634 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:30] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -

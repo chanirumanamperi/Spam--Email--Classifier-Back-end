@@ -1,0 +1,8 @@
+Flask
+werkzeug
+gunicorn
+mysql-connector-python
+bcrypt
+scikit-learn
+flask-cors
+
